@@ -16,9 +16,15 @@ body {
   flex: 1 1 auto;
   min-height: 100vh;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   overflow: hidden;
+}
+
+/* Keep the flipbook controls visible on small screens */
+.df-container.df-xs .df-ui-controls .df-ui-btn.df-ui-page {
+  display: inline-flex !important;
+  align-items: center;
 }
 
 /* Media container (YouTube player) */
